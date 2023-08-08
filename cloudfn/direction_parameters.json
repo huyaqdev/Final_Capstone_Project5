@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "clouddevops"
+	},
+	{
+		"ParameterKey": "SSHKey",
+		"ParameterValue": "clouddevops"
+	},
+	{
+		"ParameterKey": "AMI",
+		"ParameterValue": "ami-08d4ac5b634553e16"
+	}
+]
