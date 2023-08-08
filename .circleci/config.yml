@@ -242,7 +242,7 @@ jobs:
             ansible-playbook -i ~/inventory.txt app_dep.yml
           environment:
             ANSIBLE_HOST_KEY_CHECKING: False
-          no_output_timeout: 2m
+          no_output_timeout: 10m
 
 workflows:
   my_workflow:
