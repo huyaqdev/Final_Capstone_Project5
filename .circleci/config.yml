@@ -62,7 +62,7 @@ jobs:
             # List image
             docker image ls
 
-      # Upload to Docker hub dockertonymd
+      # Upload to Docker hub huyaqdev
       - run:
           name: Dockerhub upload
           command: |
@@ -242,7 +242,7 @@ jobs:
             ansible-playbook -i ~/inventory.txt app_dep.yml
           environment:
             ANSIBLE_HOST_KEY_CHECKING: False
-          no_output_timeout: 10m
+          no_output_timeout: 5m
 
 workflows:
   my_workflow:

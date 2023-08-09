@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: clouddevops-app
-          image: dockertonymd/clouddevops
+          image: huyaqdev/clouddevops
           ports:
             - containerPort: 80

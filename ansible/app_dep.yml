@@ -11,7 +11,7 @@
     - kubernetes
   tasks:
     - name: Update latest image deployment
-      shell: "./bin/kubectl set image deployments/{{ ENVIRONMENT_NAME }}-deployment {{ ENVIRONMENT_NAME }}-app=dockertonymd/{{ ENVIRONMENT_NAME }}:{{ CIRCLE_WORKFLOW_ID }}"
+      shell: "./bin/kubectl set image deployments/{{ ENVIRONMENT_NAME }}-deployment {{ ENVIRONMENT_NAME }}-app=huyaqdev/{{ ENVIRONMENT_NAME }}:{{ CIRCLE_WORKFLOW_ID }}"
       args:
         chdir: $HOME
 
